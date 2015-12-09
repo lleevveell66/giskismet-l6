@@ -1,0 +1,20 @@
+Source: giskismet
+Section: net
+Priority: extra
+Maintainer: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0), perl, libxml-libxml-perl, libdbi-perl, libdbd-sqlite3-perl
+Standards-Version: 3.9.3
+Homepage: http://trac.assembla.com/giskismet
+Vcs-Git: ssh://git@git.kali.org/packages/giskismet.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/giskismet.git;a=summary
+
+Package: giskismet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl, libxml-libxml-perl, libdbi-perl, libdbd-sqlite3-perl, kismet
+Description: Wireless recon visualization tool
+ GISKismet is a wireless recon visualization tool to 
+ represent data gathered using Kismet in a flexible manner. 
+ GISKismet stores the information in a database so that the 
+ user can generate graphs using SQL. GISKismet currently 
+ uses SQLite for the database and GoogleEarth / KML files 
+ for graphing. 

@@ -1,0 +1,11 @@
+giskismet (0.02~svn30-1kali2) kali; urgency=low
+
+  * Removed desktop file
+
+ -- balding_parrot <balding_parrot@kali.org>  Sat, 15 Dec 2012 16:10:51 +0000
+
+giskismet (0.02~svn30-1kali1) kali; urgency=low
+
+  * Initial release 
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 04 Dec 2012 09:37:42 -0700
